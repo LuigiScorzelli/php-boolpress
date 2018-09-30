@@ -1,0 +1,17 @@
+{
+  "name": "BoolPress",
+  "version": "1.0.0",
+  "description": "My first blog-BoolPress",
+  "main": "main.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+   "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+   "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "keywords": [],
+  "author": "LuigiScorzelli",
+  "license": "ISC",
+  "dependencies": {
+    "laravel-mix": "^2.1.14"
+  }
+}
